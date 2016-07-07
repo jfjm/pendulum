@@ -75,10 +75,10 @@ class Pendulum(datetime.datetime):
     _to_string_format = DEFAULT_TO_STRING_FORMAT
 
     # First day of week
-    _week_starts_at = SUNDAY
+    _week_starts_at = MONDAY
 
     # Last day of week
-    _week_ends_at = MONDAY
+    _week_ends_at = SUNDAY
 
     # Weekend days
     _weekend_days = [
